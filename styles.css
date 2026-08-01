@@ -1,0 +1,17 @@
+h1{
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+span{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-size: 25px;
+}
+#textcss{
+    color: blueviolet;
+}
+.paraClass{
+    color:chocolate;
+}
