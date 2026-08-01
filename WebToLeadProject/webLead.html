@@ -3,6 +3,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="WebLead.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
     <title>Web To Lead</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,6 +15,8 @@
 
     <h1>Create Web to Lead</h1>
 <input type=hidden name="oid" value="00DNS00000vWCrd">
+<input type=hidden name='captcha_settings' value='{"keyname":"WebLeadKey","fallback":"true","orgId":"00DNS00000vWCrd","ts":""}'>
+
 <input type=hidden name="retURL" value="https://kgurindagunta.github.io/LWCLearning/WebToLeadProject/ThankyouPage.html">
 
 <input type="hidden"  id="leadDate" name="Lead_Date__c" value="Web" class = "outputDate" /><br>
@@ -35,6 +39,9 @@
 <!-- Lead Date:<span class="dateInput dateOnlyInput"><input  id="00NNS00003SRqAY" name="00NNS00003SRqAY" size="12" type="text" /></span><br> -->
 
 <input type="hidden"  id="lead_source" name="lead_source" value="Web" /><br>
+
+<div class="g-recaptcha" data-sitekey="6LdzWXAtAAAAAK93JzPVZqHKMfl2NPXnWgvf73WJ"></div><br>
+
 
 <input type="submit" name="submit" class="submitBtn">
 
